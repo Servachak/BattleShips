@@ -3,10 +3,11 @@
  */
 public interface BuildField {
 
-    String [][] buildField(int x,int y);
-    String [][] addElementToField(String [][] array);
-     void showField(String [][] array);
-     boolean equalsAnswer(String answer);
-     void compAddShipsToField(String [][] array);
-     String equalsFieldForShips(int x, int y, String [][] array);
+    String[][] buildField(int x, int y);
+
+    String[][] addElementToField(String[][] array);
+
+    void showField(String[][] array);
+
+    boolean equalsAnswer(String answer);
 }

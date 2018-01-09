@@ -114,31 +114,7 @@ public class BuildBattleField implements BuildField {
 
     }
 
-    @Override
-    public void compAddShipsToField(String[][] array) {
-        System.out.println();
-        int countShip = 1;
-        boolean isFalse = true;
 
-        while(isFalse){
-
-            int coordinateX = (int)(Math.random() * 10 + 1);
-            int coordinateY = (int) (Math.random() * 10 + 1);
-
-            for (int i = 0; i < array.length; i++){
-
-                for (int j = 0; j < array.length; j++){
-
-                    if (coordinateX == i && coordinateY == j){
-                        array[i][j] = "@";
-                    }
-                    if (array[i][j].equals("@")) {
-                        array[i][j] = "@";
-                    }
-                }
-            }
-        }
-
-    }
 }
+
 
